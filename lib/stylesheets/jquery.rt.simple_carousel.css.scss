@@ -1,0 +1,51 @@
+// Place all the styles related to the webpage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.simple_carousel_content{
+    border:1px solid black;
+    &.horizontal{
+    width:400px;
+    height:70px;
+     ul{
+        width:1000px;
+        height:70px;
+        position:absolute;
+        list-style:none;
+        top:0;
+        left:0;
+        padding-left:0;
+        li{
+            width:100px;
+            height:60px;
+            float:left;
+            padding-left:0;
+
+        }
+    }
+    }
+    &.vertical{
+    width:100px;
+    height:400px;
+     ul{
+        width:100px;
+        position:absolute;
+        list-style:none;
+        top:0;
+        left:0;
+        padding-left:0;
+        li{
+            width:100px;
+            height:60px;
+            padding-left:0;
+
+        }
+    }
+    }
+    position:relative;
+    overflow:hidden;
+
+
+
+}
