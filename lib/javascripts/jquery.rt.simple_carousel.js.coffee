@@ -90,7 +90,7 @@
                 ,settings.speed
 
             move : (move_value)->
-                if settings.type = "horizontal"
+                if settings.type == "horizontal"
                     $("ul", $my_this).stop(true, true).animate
                         left: "+="+move_value
                     ,settings.speed, () ->
