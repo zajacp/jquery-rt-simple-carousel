@@ -2,7 +2,7 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
-	    
+()->
     $(".simple_carousel_content").simpleCarousel
         "speed":500
         'multiplication':3
@@ -142,19 +142,19 @@
 
 
         methods['stop']()
-        $(".rt_left").hover () ->
+        $(".rt_left", $my_this.parents("simple_carousel_container")).hover () ->
             methods['left']()
         ,() ->
             methods['stop']()
-        $(".rt_right").hover () ->
+        $(".rt_right", $my_this.parents("simple_carousel_container")).hover () ->
             methods['right']()
         ,() ->
             methods['stop']()
-        $(".rt_up").hover () ->
+        $(".rt_up", $my_this.parents("simple_carousel_container")).hover () ->
             methods['up']()
         ,() ->
             methods['stop']()
-        $(".rt_down").hover () ->
+        $(".rt_down", $my_this.parents("simple_carousel_container")).hover () ->
             methods['down']()
         ,() ->
             methods['stop']()
