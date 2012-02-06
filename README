@@ -1,9 +1,11 @@
 html.erb example
-
+<div class="simple_carousel_container">
   <span class="rt_left">lewo</span>
   <span class="rt_right">prawo</span>
   <span class="rt_up">up</span>
   <span class="rt_down">down</span>
+
+
 
 <div class="simple_carousel_content horizontal" >
   <ul>
@@ -29,4 +31,6 @@ html.erb example
     <%=image_tag "7.png"%>
   </li>
   </ul>
+</div>
+
 </div>
