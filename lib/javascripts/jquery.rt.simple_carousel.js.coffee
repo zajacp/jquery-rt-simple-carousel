@@ -142,19 +142,19 @@
 
 
         methods['stop']()
-        $(".rt_left", $my_this.parents("simple_carousel_container")).hover () ->
+        $(".rt_left", $my_this.parents(".simple_carousel_container")).hover () ->
             methods['left']()
         ,() ->
             methods['stop']()
-        $(".rt_right", $my_this.parents("simple_carousel_container")).hover () ->
+        $(".rt_right", $my_this.parents(".simple_carousel_container")).hover () ->
             methods['right']()
         ,() ->
             methods['stop']()
-        $(".rt_up", $my_this.parents("simple_carousel_container")).hover () ->
+        $(".rt_up", $my_this.parents(".simple_carousel_container")).hover () ->
             methods['up']()
         ,() ->
             methods['stop']()
-        $(".rt_down", $my_this.parents("simple_carousel_container")).hover () ->
+        $(".rt_down", $my_this.parents(".simple_carousel_container")).hover () ->
             methods['down']()
         ,() ->
             methods['stop']()
